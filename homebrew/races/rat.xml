@@ -44,10 +44,10 @@
     </description>
     <sheet display="false" />
     <setters>
-        <set name="names" type="male">Rex, Oreo, Midnight, Bandit, Shadow, Remy, Charlie, Gus, Oliver, Leo, Max</set>
-        <set name="names" type="female">Daisy, Luna, Bella, Hazel, Coco, Ginger, Minnie, Rosie, Pepper, Lily</set>
+        <set name="names" type="male">Rex, Oreo, Midnight, Bandit, Shadow, Remy, Charlie, Gus, Oliver, Leo, Max, Whiskers, Scurry, Nibble, Sniff, Dash, Fuzz, Paws, Twitch, Skitter, Cheese, Stealth, Gnaw, Quick</set>
+        <set name="names" type="female">Daisy, Luna, Bella, Hazel, Coco, Ginger, Minnie, Rosie, Pepper, Lily, Mocha, Sable, Tawny, Willow, Clover, Ruby, Olive, Pearl, Ivy</set>
         <set name="names" type="child">Whiskers, Scurry, Nibble, Sniff, Dash, Fuzz, Paws, Twitch, Skitter, Cheese</set>
-        <set name="names" type="family">Tailspinner, Whiskerfield, Scurrytail, Cheesebiter, Nibblepaw, Shadowwhisker, Fuzznose, Skittertail, Ratclaw, Snifftail</set>
+        <set name="names" type="family">Stealthfur, Whiskerfang, Scuttlepelt, Gnawtooth, Quicktail, Shadowfur, Sneaknose, Nibbleridge, Silentclaw, Fuzzywhisker,Tailspinner, Whiskerfield, Scurrytail, Cheesebiter, Nibblepaw, Shadowwhisker, Fuzznose, Skittertail, Ratclaw, Snifftail</set>
         <set name="names-format">{{name}} {{family}}</set>
         <set name="height">6"</set>
         <set name="weight">1 lb.</set>
@@ -59,9 +59,9 @@
         <grant type="Language" id="ID_LANGUAGE_NL5EH_RATTISH" />
         <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
 
-        <stat name="innate speed:climb" value="20"/>
-        <stat name="innate speed:swim" value="10"/>
-        <stat name="innate speed:fly" value="0"/>
+        <stat name="innate speed" value="25" bonus="base"/>
+        <stat name="innate speed:climb" value="20" bonus="base"/>
+        <stat name="innate speed:swim" value="10" bonus="base"/>
     </rules>
    </element>
     

@@ -3,21 +3,9 @@
     <info>
         <name></name>
         <update version="0.0.1">
-            <file name="rat.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/rat.xml" />
+            <file name="rat.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/companions/companion_rat.xml" />
         </update>
     </info>
-
-    <element name="Rattish" type="Language" source="NLE5H" id="ID_LANGUAGE_NL5EH_RATTISH">
-		<supports>Standard</supports>
-		<description>
-			<p>Rattish is the language of the rats, and is often heard as a series of squeaks, clicks, and body language. It is understood only by other rats and those who spend time studying them.</p>
-		</description>
-		<setters>
-			<set name="standard">true</set>
-			<set name="speakers">Rats</set>
-			<set name="script">Ratten Runes</set>
-		</setters>
-	</element>
     
     <element name="Rat" type="Companion" source="NL5EH" id="ID_NLOVELL_NL5EH_COMPANION_RAT">
 		<description>

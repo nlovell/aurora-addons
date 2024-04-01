@@ -3,10 +3,11 @@
     <info>
         <name>NLovell's Homebrew Aurora Addons</name>
         <update version="0.0.1">
-            <file name="homebrew.index" url="https://raw.githubusercontent.com/nlovell/aurora-addons/homebrew/homebrew.index"/>
+            <file name="homebrew.index" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/homebrew.index"/>
         </update>
     </info>
     <files>
+        <file name="races.index" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/races/races.index"/>
         <file name="items.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/items.xml"/>
         <file name="weapons.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/weapons.xml"/>
     </files>

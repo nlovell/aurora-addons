@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="rat.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/races/rat.xml" />
+        </update>
+    </info>
+
+   <element name="Rat" type="Race" source="NLE5H" id="ID_NLOVELL_NL5EH_RACE_RAT">
+    <description>
+            <p class="flavor">Rats are cunning creatures of urban stealth, living among humans but often unnoticed. They dwell in hidden nooks of bustling cities or dark corners filled with the scent of food, where the sound of skittering feet and squeaks echo in the night, and the aroma of fresh crumbs fills the air. Rats are resourceful and clever, with a knack for survival and finding the best things in life.</p>
+			<h4>SLENDER AND AGILE</h4>
+			<p>With their nimble bodies and sharp features, rats are intriguing to humans and many other creatures. They are smaller than humans on average, ranging from just over 6 inches to a foot long. They are lightweight, weighing only a few ounces to a pound. Both male and female rats are similar in size and weight.</p>
+			<p class="indent">Rats come in various colors, including shades of brown, black, and even white. Their fur can be sleek or fluffy, and their eyes sparkle like tiny beads. Rats have whiskers and little body hair. They prefer simple but functional clothing and might adorn themselves with trinkets they find in their adventures.</p>
+			<h4>A RESOURCEFUL NATURE</h4>
+			<p>Rats have a relatively short lifespan, but their quick wit and adaptability give them a keen sense of their surroundings. They are often curious and opportunistic, always on the lookout for a chance to scavenge or explore. They can be cautious yet determined when pursuing a goal, whether it's finding food or navigating a maze. Rats are social creatures, forming close bonds with their fellow rats and remembering both friends and foes.</p>
+			<p class="indent">Like the agile movements of a gymnast, rats are adept at evading danger. They use their intelligence and cunning to outsmart predators and find safe havens. When cornered, rats can be surprisingly fierce, using their sharp teeth and claws to defend themselves.</p>
+			<h4>URBAN DWELLERS</h4>
+			<p>Most rats live in hidden burrows or nests within human settlements. They scavenge for food, often raiding garbage bins or sneaking into kitchens. Their resourcefulness allows them to thrive in urban environments, making use of whatever resources they can find. Some rats are skilled at crafting useful items from discarded materials.</p>
+			<p class="indent">Rats encountered outside their nests are often seen scurrying through alleys or darting across streets. Some rats have become pets, living in human homes and forming close bonds with their owners.</p>
+			<h4>EXPLORATION AND ADVENTURE</h4>
+			<p>Rats are natural explorers, always eager to discover new places and find hidden treasures. Their small size and agility allow them to navigate through tight spaces and explore places that larger creatures cannot reach. Some rats take up adventuring to seek excitement and challenge, while others are driven by the thrill of the hunt or the desire to find a better life.</p>
+			<h4>RAT NAMES</h4>
+			<p>Rats are considered young until they reach adulthood, which is usually around a few months old. Before this, they are often called by nicknames based on their appearance or behavior.</p>
+			<p class="indent">Upon reaching adulthood, a rat chooses an adult name, although those who knew them as youngsters might continue to use the nickname. Each rat's adult name is a unique creation, often reflecting their personality or experiences. There is little distinction between male and female names among rats.</p>
+			<p>
+			<span class="feature">Nicknames:</span>Whiskers, Scurry, Nibble, Sniff, Dash, Fuzz, Paws, Twitch, Skitter, Cheese<br />
+			<span class="feature">Male Adult Names:</span>Rex, Oreo, Midnight, Bandit, Shadow, Remy, Charlie, Gus, Oliver, Leo, Max<br />
+			<span class="feature">Female Adult Names:</span>Daisy, Luna, Bella, Hazel, Coco, Ginger, Minnie, Rosie, Pepper, Lily<br />
+			<span class="feature">Family Names:</span>Tailspin, Whiskerfield, Scurrytail, Cheesebiter, Nibblepaw, Shadowwhisker, Fuzznose, Skittertail, Ratclaw, Snifftail
+			</p>
+
+            <h4>RAT TRAITS</h4>
+			<p>Your rat character possesses a variety of natural abilities, honed through generations of rat cunning and survival instincts.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 4.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Rats mature quickly, reaching adulthood within a few months. They typically live to be 2-3 years old.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Rats are opportunistic and adaptable, leaning towards chaotic neutral. They prioritize survival and the well-being of their community, but individual rats can vary widely in alignment based on their experiences.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Rats are small creatures, ranging from 6 inches to a foot long. Your size is Tiny.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>
+			<p class="indent"><strong><em>Darkvision.</em></strong> Accustomed to navigating dark urban environments, you have superior vision in dark and dim conditions. You can see in dim light within 30 feet of you as if it were bright light, and in darkness as if it were dim light. You can’t discern color in darkness, only shades of gray.</p>
+			<p class="indent"><strong><em>Keen Senses.</em></strong> You have proficiency in the Perception skill.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can understand Common and one additional language of your choice, often Thieves' Cant or another urban slang. You can speak Rat language as a series of squeaks, clicks, and body language, understood only by other rats and those who spend time studying them.</p>
+    </description>
+    <sheet display="false" />
+    <setters>
+        <set name="names" type="male">Rex, Oreo, Midnight, Bandit, Shadow, Remy, Charlie, Gus, Oliver, Leo, Max</set>
+        <set name="names" type="female">Daisy, Luna, Bella, Hazel, Coco, Ginger, Minnie, Rosie, Pepper, Lily</set>
+        <set name="names" type="child">Whiskers, Scurry, Nibble, Sniff, Dash, Fuzz, Paws, Twitch, Skitter, Cheese</set>
+        <set name="names" type="family">Tailspinner, Whiskerfield, Scurrytail, Cheesebiter, Nibblepaw, Shadowwhisker, Fuzznose, Skittertail, Ratclaw, Snifftail</set>
+        <set name="names-format">{{name}} {{family}}</set>
+        <set name="height">6"</set>
+        <set name="weight">1 lb.</set>
+    </setters>
+    <rules>
+        <grant type="Size" id="ID_SIZE_TINY" />
+        <grant type="Vision" id="ID_VISION_DARKVISION" />
+        <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+        <grant type="Language" id="ID_LANGUAGE_NL5EH_RATTISH" />
+        <grant type="Racial Trait" id="ID_RACIAL_TRAIT_KEEN_SENSES" />
+
+        <stat name="innate speed:climb" value="20"/>
+        <stat name="innate speed:swim" value="10"/>
+        <stat name="innate speed:fly" value="0"/>
+    </rules>
+   </element>
+    
+</elements>

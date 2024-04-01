@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name>NLovell's Homebrew Aurora Addons</name>
+        <update version="0.0.1">
+            <file name="races.index" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/races/races.index"/>
+        </update>
+    </info>
+    <files>
+        <file name="rattish.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/language/rattish.xml"/>
+        <file name="rat.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/races/rat.xml"/>
+    </files>
+</index>

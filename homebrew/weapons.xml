@@ -3,11 +3,11 @@
     <info>
         <name>Homebrew Weapons</name>
         <update version="0.0.1">
-            <file name="homebrew.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew.xml" />
+            <file name="weapons.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/weapons.xml" />
         </update>
     </info>
 
-    <element name="nlovell's 5e aurora addons" type="Source" source="Core" id="ID_author_source_SOURCE_name">
+    <element name="nlovell's 5e aurora addons - weapons" type="Source" source="Core" id="ID_NLOVELL_NL5EH_WEAPONS">
         <description>
             <![CDATA[<p>nlovell's homebrew weapons for 5e</p>]]>
         </description>
@@ -47,22 +47,4 @@
 			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
         </setters>
     </element>
-
-    <element name="Goblin Nose" type="Item" source="NL5EH" id="ID_NLOVELL_HOMEBREW_ITEM_GOBLINNOSE">
-        <description>
-            <p>A gangrenous flesh lump sliced from the face of a goblin</p>
-        </description>
-        <sheet>
-            <description>A gangrenous flesh lump sliced from the face of a goblin</description>
-        </sheet>
-        <setters>
-            <set name="category">Treasure</set>
-			<set name="cost" currency="cp">0</set>
-			<set name="weight" lb="0.25">0.25 lb.</set>
-			<set name="range">20/50</set>
-			<set name="damage" type="bludgeoning">1d2-1</set>
-            <set name="stackable">true</set>
-        </setters>
-    </element>
-    
 </elements>

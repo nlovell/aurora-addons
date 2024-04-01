@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name>NLovell's Aurora Addons</name>
+        <update version="0.0.1">
+            <file name="nlovell.index" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/nlovell.index"/>
+        </update>
+    </info>
+    <files>
+        <file name="homebrew.index" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/homebrew.index"/>
+    </files>
+</index>

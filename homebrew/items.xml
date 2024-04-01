@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Homebrew Items</name>
+        <update version="0.0.1">
+            <file name="items.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/items.xml" />
+        </update>
+    </info>
+
+    <element name="nlovell's 5e aurora addons - items" type="Source" source="Core" id="ID_NLOVELL_NL5EH_ITEMS">
+        <description>
+            <![CDATA[<p>nlovell's homebrew items for 5e</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">NL5EH</set>
+            <set name="url"></set>
+            <set name="image"></set>
+            <set name="author" abbreviation="NL" url="https://nlovell.dev/">nlovell</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="playtest">false</set>
+            <set name="third-party">false</set>
+            <set name="homebrew">true</set>
+            <set name="league">false</set>
+            <set name="release">20200118</set>
+        </setters>
+    </element>
+
+    <element name="Goblin Nose" type="Item" source="NL5EH" id="ID_NLOVELL_HOMEBREW_ITEM_GOBLINNOSE">
+        <description>
+            <p>A gangrenous flesh lump sliced from the face of a goblin</p>
+        </description>
+        <sheet>
+            <description>A gangrenous flesh lump sliced from the face of a goblin</description>
+        </sheet>
+        <setters>
+            <set name="category">Treasure</set>
+            <set name="cost" currency="cp">0</set>
+            <set name="weight" lb="0.25">0.25 lb.</set>
+            <set name="range">20/50</set>
+            <set name="damage" type="bludgeoning">1d2-1</set>
+            <set name="stackable">true</set>
+        </setters>
+    </element>
+</elements>

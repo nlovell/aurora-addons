@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+    <info>
+        <name>NLovell's Homebrew Aurora Addons - Companions</name>
+        <update version="0.0.1">
+            <file name="companions.index" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/companions/companions.index"/>
+        </update>
+    </info>
+    <files>
+        <file name="rattish.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/language/rattish.xml"/>
+        <file name="companion_rat.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew/companions/companion_rat.xml"/>
+    </files>
+</index>

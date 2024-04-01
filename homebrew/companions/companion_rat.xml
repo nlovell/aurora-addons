@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name></name>
+        <update version="0.0.1">
+            <file name="rat.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/rat.xml" />
+        </update>
+    </info>
+
+    <element name="Rattish" type="Language" source="NLE5H" id="ID_LANGUAGE_NL5EH_RATTISH">
+		<supports>Standard</supports>
+		<description>
+			<p>Rattish is the language of the rats, and is often heard as a series of squeaks, clicks, and body language. It is understood only by other rats and those who spend time studying them.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Rats</set>
+			<set name="script">Ratten Runes</set>
+		</setters>
+	</element>
+    
+    <element name="Rat" type="Companion" source="NL5EH" id="ID_NLOVELL_NL5EH_COMPANION_RAT">
+		<description>
+			<p>A small rat of little remark.</p>
+        </description>
+		<setters>
+			<set name="strength">6</set>
+			<set name="dexterity">18</set>
+			<set name="constitution">14</set>
+			<set name="intelligence">12</set>
+			<set name="wisdom">8</set>
+			<set name="charisma">8</set>
+			<set name="ac">17</set>
+			<set name="hp">1</set>
+			<set name="speed">25 ft., climb 20 ft., swim 10ft.</set>
+			<set name="languages">understands Common but can't speak it; can speak Rattish</set>
+			<set name="skills">Perception +3, Stealth +4</set>
+			<set name="senses">Darkvision 60 ft., passive Perception 13</set>
+			<set name="type">Rat</set>
+			<set name="size">Tiny</set>
+			<set name="alignment">neutral chaotic</set>
+			<set name="challenge">1/4</set>
+			<set name="traits"></set>
+			<set name="actions">ID_NLOVELL_NL5EH_COMPANION_ACTION_RAT_BITE,ID_NLOVELL_NL5EH_COMPANION_ACTION_RAT_SCRATCH</set>
+		</setters>
+		<rules>
+			<stat name="companion:ac" value="17" />
+			<stat name="companion:hp:max" value="1" bonus="base" />
+			<stat name="companion:speed" value="25" bonus="base" />
+			<stat name="companion:speed:climb" value="20" bonus="base" />
+			<stat name="companion:speed:climb" value="10" bonus="base" />
+			<stat name="companion:perception:proficiency" value="companion:proficiency" bonus="base" />
+			<stat name="companion:stealth:proficiency" value="companion:proficiency" bonus="base" />
+		</rules>
+	</element>
+    
+	<element name="Bite" type="Companion Action" source="NL5EH" id="ID_NLOVELL_NL5EH_COMPANION_ACTION_RAT_BITE">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 1) piercing damage. Cannot penetrate metal armour.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 4 (1d4 + 1) piercing damage. Cannot penetrate metal armour.</description>
+		</sheet>
+	</element>
+
+	<element name="Scratch" type="Companion Action" source="NL5EH" id="ID_NLOVELL_NL5EH_COMPANION_ACTION_RAT_SCRATCH">
+		<description>
+			<p>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour.</p>
+		</description>
+		<sheet>
+			<description>Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 4 (1d4 + 2) piercing damage, and the target must succeed on a DC 11 Constitution saving throw or become poisoned for 1 hour.</description>
+		</sheet>
+	</element>
+
+</elements>

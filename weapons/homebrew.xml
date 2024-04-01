@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Homebrew Weapons</name>
+        <update version="0.0.1">
+            <file name="homebrew.xml" url="https://raw.githubusercontent.com/nlovell/aurora-addons/master/homebrew.xml" />
+        </update>
+    </info>
+
+    <element name="nlovell's 5e aurora addons" type="Source" source="Core" id="ID_author_source_SOURCE_name">
+        <description>
+            <![CDATA[<p>nlovell's homebrew weapons for 5e</p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">NL5EH</set>
+            <set name="url"></set>
+            <set name="image"></set>
+            <set name="author" abbreviation="NL" url="https://nlovell.dev/">nlovell</set>
+            <set name="official">false</set>
+            <set name="supplement">false</set>
+            <set name="playtest">false</set>
+            <set name="third-party">false</set>
+            <set name="homebrew">true</set>
+            <set name="league">false</set>
+            <set name="release">20200118</set>
+        </setters>
+    </element>
+    
+    <element name="Throwing Knife" type="Weapon" source="NL5EH" id="ID_NLOVELL_HOMEBREW_WEAPON_THROWINGKNIFE">
+		<supports>
+            ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_THROWN
+        </supports>        
+        <description>
+           <p>A small, well-weighted dagger capable of being thrown accurately up to 30 feet</p>
+        </description>
+        <sheet>
+            <description>A small, well-weighted dagger capable of being thrown accurately up to 30 feet</description>
+        </sheet>
+        <setters>
+            <set name="category">Weapons</set>
+			<set name="cost" currency="sp">5</set>
+			<set name="weight" lb="0.5">0.5 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/90</set>
+			<set name="damage" type="piercing">1d6</set>
+            <set name="stackable">true</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER</set>
+        </setters>
+    </element>
+    
+</elements>
